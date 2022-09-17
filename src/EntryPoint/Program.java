@@ -14,7 +14,8 @@ public class Program {
         pois se poderia definir o model(que e o modelo de dominio do problema) dado pelo produto
         e distribuindo via controlador para via a interface de processar a logica de negócio esperada
         dessa forma via a classe utilitária implementada através da composição baixar o acoplamento sendo
-        assim a forma de pagamento a "cola" sobre que ação tomar no código.
+        assim a forma de pagamento a "cola" sobre que ação tomar no código, pois tomei essa decisão pensando
+        que quando já estamos lidando com componentes arquiteturais tentei introduzir a ideia do clean architecture.
          */
 
         AcaoRealizarVendaImpl impl = new AcaoRealizarVendaImpl();
